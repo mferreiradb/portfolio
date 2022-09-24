@@ -15,6 +15,7 @@ export default function Home() {
                     <h1 className="text-white text-3xl font-bold lg:text-5xl">Mauricio Ferreira</h1>
                     <code className="text-slate-400 text-2xl lg:text-4xl">{dev}</code>
                 </div>
+                
                 <div className="flex flex-col justify-center">
                     <code className='text-white text-xl leading-normal lg:text-3xl xl:text-4xl'>
                         System.out.println("Hello world!");<br />
