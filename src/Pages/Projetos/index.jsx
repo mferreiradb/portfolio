@@ -7,7 +7,7 @@ import Pokemon from '../../assets/pokemon.png'
 import HelpDev from '../../assets/HelpDev.png'
 import MeusLinks from '../../assets/meus-links.png'
 import SeuFuturo from '../../assets/SeuFuturo.png'
-import dsMeta from '../../assets/dsMeta.png'
+import DsMeta from '../../assets/dsMeta.png'
 import Concreta from '../../assets/Concreta.png'
 import Pousada from '../../assets/pousada.png'
 
@@ -86,7 +86,7 @@ export default function Projetos() {
                                 <li type='disc' className='text-sm w-2/4 text-white'>Java</li>
                                 <li type='disc' className='text-sm w-2/4 text-white'>Spring</li>
                             </ul>
-                            <img src={dsMeta} className='w-3/4 xl:w-52' />
+                            <img src={DsMeta} className='w-3/4 xl:w-52' />
                             <a className="text-white text-md border-4 border-blue-900 py-1 px-4 rounded-2xl" href='https://www.linkedin.com/posts/mferreiradb_react-reactjs-vendas-activity-6974475209961558016-oLAo?utm_source=share&utm_medium=member_desktop' target='_blank'>Acessar</a>
                             <p className="text-white text-md">Este projeto não está online devido dificuldades com a Heroku, porém ao clicar em Acessar, você será redirecionado(a) para a minha publicação feita no Linkedin</p>
                         </div>
