@@ -2,7 +2,7 @@ import './style.css'
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
-import Gelateria from '../../assets/sorveteria.png'
+import Sorveteria from '../../assets/sorveteria.png'
 import Pokemon from '../../assets/pokemon.png'
 import HelpDev from '../../assets/HelpDev.png'
 import MeusLinks from '../../assets/meus-links.png'
@@ -33,7 +33,7 @@ export default function Projetos() {
                                 <li type='disc' className='text-sm w-2/4 text-white'>TailWind CSS</li>
                                 <li type='disc' className='text-sm w-4/4 text-white'>React-Router-Dom</li>
                             </ul>
-                            <img src={Gelateria} className='w-3/4 xl:w-52' />
+                            <img src={Sorveteria} className='w-3/4 xl:w-52' />
                             <a className="text-white text-md border-4 border-blue-900 py-1 px-4 rounded-2xl" href='https://lnkd.in/dVyH2A5n' target='_blank'>Acessar</a>
                         </div>
 
