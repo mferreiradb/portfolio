@@ -2,7 +2,7 @@ import './style.css'
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
-import Sorveteria from '../../assets/sorveteria.png'
+
 import Pokemon from '../../assets/pokemon.png'
 import HelpDev from '../../assets/HelpDev.png'
 import MeusLinks from '../../assets/meus-links.png'
