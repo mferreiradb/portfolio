@@ -10,12 +10,13 @@ import SeuFuturo from '../../assets/SeuFuturo.png'
 import DsMeta from '../../assets/dsMeta.png'
 import Concreta from '../../assets/Concreta.png'
 import Pousada from '../../assets/pousada.png'
+import FloatButton from '../../components/FloatButton';
 
 export default function Projetos() {
     return (
         <div>
             <Header />
-            <section className="bg-light-blue-project flex flex-col px-10 space-y-5">
+            <section id='topo' className="bg-light-blue-project flex flex-col px-10 space-y-5">
 
                 <div className="flex flex-col justify-center space-y-6 text-center my-28">
                     <h2 className='text-3xl text-white font-semibold'>Projetos responsivos</h2>
@@ -145,6 +146,8 @@ export default function Projetos() {
                 </div>
 
             </section>
+
+            <FloatButton />
 
             <Footer />
         </div>
