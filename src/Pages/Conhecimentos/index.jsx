@@ -5,13 +5,16 @@ import Header from "../../components/Header";
 import React from '../../assets/react.svg'
 import Tailwind from '../../assets/tailwind.png'
 import MUI from '../../assets/MUI.png'
+import JS from '../../assets/JS.png'
+import HTML from '../../assets/html.png'
+import CSS from '../../assets/css.png'
 
 export default function Conhecimentos() {
     return (
         <div>
             <Header />
 
-            <section id='topo' className="bg-dark-blue-project flex flex-col p-5 space-y-5">
+            <section id='topo' className="bg-light-blue-project flex flex-col p-5 space-y-5">
 
                 <div className="flex flex-col justify-center space-y-6 text-center my-28">
                     <h2 className='text-3xl text-white font-semibold'>Conhecimentos Mais Sólidos</h2>
@@ -60,8 +63,36 @@ export default function Conhecimentos() {
                         </div>
 
                         <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-5 my-5'>
-                            <h3 className='text-2xl text-white font-semibold'>JavaScript</h3>
-                            <p className="text-white text-lg">Página de divulgação de pousada</p>
+
+                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
+                                <img className='w-11' src={JS} alt='react-svg' />
+
+                                <h3 className='text-center w-3/4 xl:w-1/3 text-2xl text-white font-semibold'>JavScript</h3>
+                            </div>
+
+                            <p className="text-white text-lg">JavaScript é uma linguagem de programação interpretada, estruturada de scripts em alto nível, com tipagem dinâmica fraca e multiparadigma.</p>
+                        </div>
+
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-5 my-5'>
+
+                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
+                                <img className='w-11' src={HTML} alt='react-svg' />
+
+                                <h3 className='text-center w-3/4 xl:w-1/3 text-2xl text-white font-semibold'>HTML 5</h3>
+                            </div>
+
+                            <p className="text-white text-lg">HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet. É a quinta versão da linguagem HTML, que passou a ser conheciida como HTML Semântico.</p>
+                        </div>
+
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-5 my-5'>
+
+                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
+                                <img className='w-11' src={CSS} alt='react-svg' />
+
+                                <h3 className='text-center w-3/4 xl:w-1/3 text-2xl text-white font-semibold'>CSS 3</h3>
+                            </div>
+
+                            <p className="text-white text-lg">CSS3 é a terceira e mais nova versão das famosas Cascading Style Sheets, pela qual se define estilos para um projeto web.</p>
                         </div>
                     </div>
                 </div>

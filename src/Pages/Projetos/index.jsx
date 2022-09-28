@@ -1,6 +1,7 @@
 import './style.css'
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import FloatButton from '../../components/FloatButton';
 
 import Sorveteria from '../../assets/sorveteria.png'
 import Pokemon from '../../assets/pokemon.png'
@@ -10,7 +11,7 @@ import SeuFuturo from '../../assets/SeuFuturo.png'
 import DsMeta from '../../assets/dsMeta.png'
 import Concreta from '../../assets/Concreta.png'
 import Pousada from '../../assets/pousada.png'
-import FloatButton from '../../components/FloatButton';
+
 
 export default function Projetos() {
     return (
@@ -103,7 +104,7 @@ export default function Projetos() {
                                 <li type='disc' className='text-sm w-4/4 text-white'>React-Router-Dom</li>
                             </ul>
                             <img src={Concreta} className='w-3/4 xl:w-52' />
-                            <a className="text-white text-md border-4 border-blue-900 py-1 px-4 rounded-2xl" href='https://concreta-arq.vercel.app/' target='_blank'>Acessar</a>
+                            <a className="text-white text-md border-4 border-blue-900 py-1 px-4 rounded-2xl" href='https://concreta-e85r.vercel.app/' target='_blank'>Acessar</a>
                         </div>
                     </div>
                 </div>
