@@ -4,6 +4,7 @@ import Header from "../../components/Header";
 
 import React from '../../assets/react.svg'
 import Tailwind from '../../assets/tailwind.png'
+import MUI from '../../assets/MUI.png'
 
 export default function Conhecimentos() {
     return (
@@ -47,8 +48,15 @@ export default function Conhecimentos() {
                         </div>
 
                         <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-8 my-10'>
-                            <h3 className='text-2xl text-white font-semibold'>Material UI</h3>
-                            <p className="text-white text-lg">Página de divulgação de pousada</p>
+
+                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
+                                <img className='w-11' src={MUI} alt='react-svg' />
+
+                                <h3 className='text-center w-3/4 xl:w-1/3 text-2xl text-white font-semibold'>Material UI</h3>
+                            </div>
+
+                            <p className="text-white text-lg">
+                                Biblioteca que nos permite importar e usar diferentes componentes para criar uma interface de usuário em nossos aplicativos React. </p>
                         </div>
 
                         <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-8 my-10'>
