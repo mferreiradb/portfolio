@@ -8,17 +8,18 @@ import MUI from '../../assets/MUI.png'
 import JS from '../../assets/JS.png'
 import HTML from '../../assets/html.png'
 import CSS from '../../assets/css.png'
+import Flutter from '../../assets/flutter.png'
 
 export default function Conhecimentos() {
     return (
         <div>
             <Header />
 
-            <section id='topo' className="bg-light-blue-project flex flex-col p-5 space-y-5">
+            <section id='topo' className="bg-dark-blue-project flex flex-col p-5 space-y-5">
 
                 <div className="flex flex-col justify-center space-y-6 text-center my-28">
                     <h2 className='text-3xl text-white font-semibold'>Conhecimentos Mais Sólidos</h2>
-                    <p className="text-white text-xl">Técnologias que uso para desenvolver atualmente em meus projetos</p>
+                    <p className="text-white text-xl">Técnologias que utilizo atualmente para desenvolver meus projetos</p>
 
 
                     <div className="flex flex-col justify-center text-center my-28 xl:flex-row xl:flex-wrap">
@@ -93,6 +94,47 @@ export default function Conhecimentos() {
                             </div>
 
                             <p className="text-white text-lg">CSS3 é a terceira e mais nova versão das famosas Cascading Style Sheets, pela qual se define estilos para um projeto web.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id='topo' className="bg-light-blue-project flex flex-col p-5 space-y-5">
+
+                <div className="flex flex-col justify-center space-y-6 text-center my-28">
+                    <h2 className='text-3xl text-white font-semibold'>Conhecimentos Menos Sólidos</h2>
+                    <p className="text-white text-xl">Técnologias que já estudei, porém que não utilizo atualmente</p>
+
+
+                    <div className="flex flex-col justify-center text-center my-28 xl:flex-row xl:flex-wrap">
+
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-5 my-5'>
+
+                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
+                                <img src={React} alt='react-svg' />
+
+                                <h3 className='text-center w-2/3 xl:w-1/4 text-2xl text-white font-semibold'>React Native</h3>
+                            </div>
+                            <p className="text-white text-lg">React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa.</p>
+                            <ul className='flex flex-col items-center space-y-1'>
+                                <h4 className='text-lg text-white font-semibold'>Habilidades</h4>
+                                <li type='disc' className='text-sm w-7/8 text-white'>Exibição de imagens</li>
+                                <li type='disc' className='text-sm w-7/8 text-white'>Componentização</li>
+                                <li type='disc' className='text-sm w-7/8 text-white'>Estilização</li>
+                            </ul>
+                            <p className="text-white text-md style-italic">Pausa nos estudos com o objetivo de explorar as possibilidades de outra tecnologia para desenvolvimento de apps nativos multi plataforma</p>
+                        </div>
+
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-5 my-5'>
+
+                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
+                                <img className='w-12' src={Flutter} alt='react-svg' />
+
+                                <h3 className='text-center w-3/4 xl:w-1/3 text-2xl text-white font-semibold'>Flutter</h3>
+                            </div>
+
+                            <p className="text-white text-lg">Flutter é um kit de desenvolvimento de interface de usuário, que possibilita a criação de aplicativos compilados nativamente, para os sistemas operacionais Android, iOS, Windows, Mac, Linux e, Fuchsia e Web.</p>
                         </div>
                     </div>
                 </div>
