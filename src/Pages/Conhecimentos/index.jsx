@@ -20,7 +20,7 @@ export default function Conhecimentos() {
 
                     <div className="flex flex-col justify-center text-center my-28 xl:flex-row xl:flex-wrap">
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-8 my-10'>
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-5 my-5'>
 
                             <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
                                 <img src={React} alt='react-svg' />
@@ -36,7 +36,7 @@ export default function Conhecimentos() {
                             </ul>
                         </div>
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-8 my-10'>
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-5 my-5'>
 
                             <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
                                 <img className='w-12' src={Tailwind} alt='react-svg' />
@@ -47,7 +47,7 @@ export default function Conhecimentos() {
                             <p className="text-white text-lg">Biblioteca CSS com foco no conceito <b>Mobile First</b> que facilita na estilizaçãoe e responsividade através de classes.</p>
                         </div>
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-8 my-10'>
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-5 my-5'>
 
                             <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
                                 <img className='w-11' src={MUI} alt='react-svg' />
@@ -59,7 +59,7 @@ export default function Conhecimentos() {
                                 Biblioteca que nos permite importar e usar diferentes componentes para criar uma interface de usuário em nossos aplicativos React. </p>
                         </div>
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-8 my-10'>
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-5 my-5'>
                             <h3 className='text-2xl text-white font-semibold'>JavaScript</h3>
                             <p className="text-white text-lg">Página de divulgação de pousada</p>
                         </div>
