@@ -6,11 +6,44 @@ export default function Conhecimentos() {
     return (
         <div>
             <Header />
-            <section id='topo' className="bg-red-700 flex flex-col items-center p-5">
-                <div className='text-center flex flex-col items-center space-y-6'>
-                    <h2 className='text-3xl text-white font-semibold'>Quem sou eu?</h2>
-                    <p className='text-white text-lg leading-relaxed'>Meu nome é Mauricio, sou natural de Parnaíba-PI. Tenho formação técnica em Administração, Atendimento ao Cliente e Gestão de Pessoas. Estou me desenvolvendo na área de Tecnologia e busco trabalhar com programação. Possuo experiência com Banco de Dados SQL (MYSQL e Firebird), linguagem Javascript, React Js, React Native, Photoshop, Figma e Pacote Office, além de já ter estudado Python e Java. Estou estudando desenvolvimento FullStack na DevMedia, uma das maiores escolas de programação do mercado.</p>
+
+            <section className="bg-dark-blue-project flex flex-col p-5 space-y-5">
+
+                <div className="flex flex-col justify-center space-y-6 text-center my-28">
+                    <h2 className='text-3xl text-white font-semibold'>Conhecimentos Mais Sólidos</h2>
+                    <p className="text-white text-xl">Técnologias que uso para desenvolver atualmente em meus projetos</p>
+
+
+                    <div className="flex flex-col justify-center text-center my-28 xl:flex-row xl:flex-wrap">
+
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-8 my-10'>
+                            <h3 className='text-2xl text-white font-semibold'>React JS</h3>
+                            <p className="text-white text-lg">O React é uma biblioteca JavaScript com foco em criar interfaces de usuário em páginas web.</p>
+                            <ul className='flex flex-col items-center space-y-1'>
+                                <h4 className='text-lg text-white font-semibold'>Habilidades</h4>
+                                <li type='disc' className='text-sm w-7/8 text-white'>Componentização</li>
+                                <li type='disc' className='text-sm w-7/8 text-white'>useState</li>
+                                <li type='disc' className='text-sm w-7/8 text-white'>Rotas</li>
+                            </ul>
+                        </div>
+
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-8 my-10'>
+                            <h3 className='text-2xl text-white font-semibold'>TailWind CSS</h3>
+                            <p className="text-white text-lg">Biblioteca CSS com foco no conceito <b>Mobile First</b> que facilita na estilizaçãoe e responsividade através de classes.</p>
+                        </div>
+
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-8 my-10'>
+                            <h3 className='text-2xl text-white font-semibold'>Material UI</h3>
+                            <p className="text-white text-lg">Página de divulgação de pousada</p>
+                        </div>
+
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-8 my-10'>
+                            <h3 className='text-2xl text-white font-semibold'>JavaScript</h3>
+                            <p className="text-white text-lg">Página de divulgação de pousada</p>
+                        </div>
+                    </div>
                 </div>
+
             </section>
 
             <FloatButton />
