@@ -10,7 +10,7 @@ export default function Conhecimentos() {
         <div>
             <Header />
 
-            <section className="bg-dark-blue-project flex flex-col p-5 space-y-5">
+            <section id='#topo' className="bg-dark-blue-project flex flex-col p-5 space-y-5">
 
                 <div className="flex flex-col justify-center space-y-6 text-center my-28">
                     <h2 className='text-3xl text-white font-semibold'>Conhecimentos Mais Sólidos</h2>
