@@ -127,7 +127,7 @@ export default function Projetos() {
                             </div>
 
                             <a className="text-white hover:bg-dark-blue-project text-md border-4 border-blue-900 py-1 px-4 rounded-2xl" href='https://concreta-e85r.vercel.app/' target='_blank'>Acessar</a>
-                            <p className="text-white text-md italic">Este projeto ainda testá em fase de desenvolvimento. Você pode acompanhar como está ficando clicando no botão para acessar!</p>
+                            <p className="text-white text-md italic">Este projeto ainda está em fase de desenvolvimento. Você pode acompanhar como está o andamento do projeto clicando no botão para acessar!</p>
                         </div>
                     </div>
                 </div>
