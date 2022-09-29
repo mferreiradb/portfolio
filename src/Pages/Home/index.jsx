@@ -26,7 +26,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="bg-light-blue-project flex flex-col items-center p-5 xl:flex xl:justify-center">
+            <section className="bg-light-blue-project flex flex-col items-center px-5 py-12 xl:flex xl:justify-center">
 
                 <div className='text-center flex flex-col items-center justify-center space-y-6 xl:flex-row xl:px-5 xl:justify-center xl:space-x-10'>
                     <img src={MinhaFoto} alt='minha-foto' />

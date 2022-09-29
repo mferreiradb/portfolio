@@ -9,6 +9,8 @@ import JS from '../../assets/JS.png'
 import HTML from '../../assets/html.png'
 import CSS from '../../assets/css.png'
 import Flutter from '../../assets/flutter.png'
+import Dart from '../../assets/dart.png'
+import Python from '../../assets/py.png'
 
 export default function Conhecimentos() {
     return (
@@ -24,7 +26,7 @@ export default function Conhecimentos() {
 
                     <div className="flex flex-col justify-center text-center my-28 xl:flex-row xl:flex-wrap">
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-5 my-5'>
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
 
                             <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
                                 <img src={React} alt='react-svg' />
@@ -37,10 +39,11 @@ export default function Conhecimentos() {
                                 <li type='disc' className='text-sm w-7/8 text-white'>Componentização</li>
                                 <li type='disc' className='text-sm w-7/8 text-white'>useState</li>
                                 <li type='disc' className='text-sm w-7/8 text-white'>Rotas</li>
+                                <li type='disc' className='text-sm w-7/8 text-white'>Props</li>
                             </ul>
                         </div>
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-5 my-5'>
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
 
                             <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
                                 <img className='w-12' src={Tailwind} alt='react-svg' />
@@ -51,7 +54,7 @@ export default function Conhecimentos() {
                             <p className="text-white text-lg">Biblioteca CSS com foco no conceito <b>Mobile First</b> que facilita na estilizaçãoe e responsividade através de classes.</p>
                         </div>
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-5 my-5'>
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
 
                             <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
                                 <img className='w-11' src={MUI} alt='react-svg' />
@@ -63,7 +66,7 @@ export default function Conhecimentos() {
                                 Biblioteca que nos permite importar e usar diferentes componentes para criar uma interface de usuário em nossos aplicativos React. </p>
                         </div>
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-5 my-5'>
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
 
                             <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
                                 <img className='w-11' src={JS} alt='react-svg' />
@@ -74,7 +77,7 @@ export default function Conhecimentos() {
                             <p className="text-white text-lg">JavaScript é uma linguagem de programação interpretada, estruturada de scripts em alto nível, com tipagem dinâmica fraca e multiparadigma.</p>
                         </div>
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-5 my-5'>
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
 
                             <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
                                 <img className='w-11' src={HTML} alt='react-svg' />
@@ -85,7 +88,7 @@ export default function Conhecimentos() {
                             <p className="text-white text-lg">HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet. É a quinta versão da linguagem HTML, que passou a ser conheciida como HTML Semântico.</p>
                         </div>
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-5 my-5'>
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
 
                             <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
                                 <img className='w-11' src={CSS} alt='react-svg' />
@@ -109,12 +112,12 @@ export default function Conhecimentos() {
 
                     <div className="flex flex-col justify-center text-center my-28 xl:flex-row xl:flex-wrap">
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-5 my-5'>
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
 
                             <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
                                 <img src={React} alt='react-svg' />
 
-                                <h3 className='text-center w-2/3 xl:w-1/4 text-2xl text-white font-semibold'>React Native</h3>
+                                <h3 className='text-center w-2/3 xl:w-2/4 text-2xl text-white font-semibold'>React Native</h3>
                             </div>
                             <p className="text-white text-lg">React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa.</p>
                             <ul className='flex flex-col items-center space-y-1'>
@@ -123,10 +126,10 @@ export default function Conhecimentos() {
                                 <li type='disc' className='text-sm w-7/8 text-white'>Componentização</li>
                                 <li type='disc' className='text-sm w-7/8 text-white'>Estilização</li>
                             </ul>
-                            <p className="text-white text-md style-italic">Pausa nos estudos com o objetivo de explorar as possibilidades de outra tecnologia para desenvolvimento de apps nativos multi plataforma</p>
+                            <p className="text-white text-md italic">Neste momento, estou em pausa nos estudos com o objetivo de explorar as possibilidades de outra tecnologia para desenvolvimento de apps nativos multi plataforma</p>
                         </div>
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/3 xl:m-5 my-5'>
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
 
                             <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
                                 <img className='w-12' src={Flutter} alt='react-svg' />
@@ -135,6 +138,34 @@ export default function Conhecimentos() {
                             </div>
 
                             <p className="text-white text-lg">Flutter é um kit de desenvolvimento de interface de usuário, que possibilita a criação de aplicativos compilados nativamente, para os sistemas operacionais Android, iOS, Windows, Mac, Linux e, Fuchsia e Web.</p>
+
+                            <p className="text-white text-md italic">Atualmente, estou explorando a tecnologia para verificar se irei investir nela ou no <b>React Native</b></p>
+                        </div>
+
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
+
+                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
+                                <img className='w-12' src={Dart} alt='react-svg' />
+
+                                <h3 className='text-center w-3/4 xl:w-1/3 text-2xl text-white font-semibold'>Dart</h3>
+                            </div>
+
+                            <p className="text-white text-lg">Dart é uma linguagem de programação voltada à web desenvolvida pela Google. O objetivo da linguagem Dart foi, inicialmente, de substituir a JavaScript como a linguagem principal embutida nos navegadores. Hoje ela é utilizada em maior parte no desenvolvimento de aplicações Flutter</p>
+
+                            <p className="text-white text-md italic">Atualmente, estou explorando a tecnologia para verificar se irei investir nela ou no <b>React Native</b></p>
+                        </div>
+
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
+
+                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
+                                <img className='w-20' src={Python} alt='react-svg' />
+
+                                <h3 className='text-center w-3/4 xl:w-1/3 text-2xl text-white font-semibold'>Python</h3>
+                            </div>
+
+                            <p className="text-white text-lg">Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.</p>
+
+                            <p className="text-white text-md italic">Finalizei o primeiro módulo do curso de Python 3 do <b>Curso em Vídeo</b>, ministrado pelo professor <b>Gustavo Guanabara</b></p>
                         </div>
                     </div>
                 </div>
