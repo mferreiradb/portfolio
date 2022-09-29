@@ -9,8 +9,8 @@ export default function Rotas() {
         <BrowserRouter>
             <Routes>
                 <Route exact path='/' element={<Home />} />
-                <Route path='projetos' element={<Projetos />} />
-                <Route path='conhecimentos' element={<Conhecimentos />} />
+                <Route path='/projetos' element={<Projetos />} />
+                <Route path='/conhecimentos' element={<Conhecimentos />} />
             </Routes>
         </BrowserRouter>
     )
