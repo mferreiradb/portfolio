@@ -9,6 +9,7 @@ import MeusLinks from '../../assets/meus-links.png'
 import SeuFuturo from '../../assets/SeuFuturo.png'
 import DsMeta from '../../assets/dsMeta.png'
 import Concreta from '../../assets/Concreta.png'
+import AcessButton from '../../components/AcessButton';
 
 
 export default function Projetos() {
@@ -38,7 +39,7 @@ export default function Projetos() {
                                 <img src={Sorveteria} className='w-3/4 xl:w-52' />
                             </div>
 
-                            <a className="text-white hover:bg-dark-blue-project text-md border-4 border-blue-900 py-1 px-4 rounded-2xl" href='https://lnkd.in/dVyH2A5n' target='_blank'>Acessar</a>
+                            <AcessButton url='https://lnkd.in/dVyH2A5n' />
                         </div>
 
                         <div className='flex flex-col items-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/4 xl:m-5 my-5'>
@@ -55,7 +56,7 @@ export default function Projetos() {
                                 <img src={HelpDev} className='w-3/4 xl:w-54' />
                             </div>
 
-                            <a className="text-white hover:bg-dark-blue-project text-md border-4 border-blue-900 py-1 px-4 rounded-2xl" href='https://mferreiradb.github.io/help-dev/' target='_blank'>Acessar</a>
+                            <AcessButton url='https://mferreiradb.github.io/help-dev/' />
                         </div>
 
 
@@ -72,7 +73,7 @@ export default function Projetos() {
                                 <img src={MeusLinks} className='w-3/4 xl:w-52' />
                             </div>
 
-                            <a className="text-white hover:bg-dark-blue-project text-md border-4 border-blue-900 py-1 px-4 rounded-2xl" href='https://mferreiradb.github.io/meus-links/' target='_blank'>Acessar</a>
+                            <AcessButton url='https://mferreiradb.github.io/meus-links/' />
                         </div>
 
                         <div className='flex flex-col items-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/4 xl:m-5 my-5'>
@@ -89,7 +90,7 @@ export default function Projetos() {
                                 <img src={SeuFuturo} className='w-3/4 xl:w-54 xl:h-64' />
                             </div>
 
-                            <a className="text-white hover:bg-dark-blue-project text-md border-4 border-blue-900 py-1 px-4 rounded-2xl" href='https://mferreiradb.github.io/maratona-explorer1-rocketseat/' target='_blank'>Acessar</a>
+                            <AcessButton url='https://mferreiradb.github.io/maratona-explorer1-rocketseat/' />
                         </div>
 
                         <div className='flex flex-col items-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/4 xl:m-5 my-5'>
@@ -107,7 +108,8 @@ export default function Projetos() {
                                 <img src={DsMeta} className='w-3/4 xl:w-52' />
                             </div>
 
-                            <a className="text-white hover:bg-dark-blue-project text-md border-4 border-blue-900 py-1 px-4 rounded-2xl" href='https://www.linkedin.com/posts/mferreiradb_react-reactjs-vendas-activity-6974475209961558016-oLAo?utm_source=share&utm_medium=member_desktop' target='_blank'>Acessar</a>
+                            <AcessButton url='https://www.linkedin.com/posts/mferreiradb_react-reactjs-vendas-activity-6974475209961558016-oLAo?utm_source=share&utm_medium=member_desktop' />
+
                             <p className="text-white text-md italic">Este projeto não está online devido dificuldades com a Heroku, porém ao clicar em Acessar, você será redirecionado(a) para a minha publicação feita no Linkedin.</p>
                         </div>
 
@@ -126,7 +128,8 @@ export default function Projetos() {
                                 <img src={Concreta} className='w-3/4 xl:w-52' />
                             </div>
 
-                            <a className="text-white hover:bg-dark-blue-project text-md border-4 border-blue-900 py-1 px-4 rounded-2xl" href='https://concreta-e85r.vercel.app/' target='_blank'>Acessar</a>
+                            <AcessButton url='https://concreta-e85r.vercel.app/' />
+                            
                             <p className="text-white text-md italic">Este projeto ainda está em fase de desenvolvimento. Você pode acompanhar como está o andamento do projeto clicando no botão para acessar!</p>
                         </div>
                     </div>
