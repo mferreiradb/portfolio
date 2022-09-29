@@ -32,7 +32,7 @@ export default function Conhecimentos() {
                             <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
                                 <img src={React} alt='react-svg' />
 
-                                <h3 className='text-center w-2/3 xl:w-1/4 text-2xl text-white font-semibold'>React JS</h3>
+                                <h3 className='text-center w-2/3 xl:w-2/4 text-2xl text-white font-semibold'>React JS</h3>
                             </div>
                             <p className="text-white text-lg">O React é uma biblioteca JavaScript com foco em criar interfaces de usuário em páginas web.</p>
                             <ul className='flex flex-col items-center space-y-1'>
@@ -49,7 +49,7 @@ export default function Conhecimentos() {
                             <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
                                 <img className='w-12' src={Tailwind} alt='react-svg' />
 
-                                <h3 className='text-center w-3/4 xl:w-1/3 text-2xl text-white font-semibold'>TailWind CSS</h3>
+                                <h3 className='text-center w-3/4 xl:w-2/4 text-2xl text-white font-semibold'>TailWind CSS</h3>
                             </div>
 
                             <p className="text-white text-lg">Biblioteca CSS com foco no conceito <b>Mobile First</b> que facilita na estilizaçãoe e responsividade através de classes.</p>
@@ -60,7 +60,7 @@ export default function Conhecimentos() {
                             <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
                                 <img className='w-11' src={MUI} alt='react-svg' />
 
-                                <h3 className='text-center w-3/4 xl:w-1/3 text-2xl text-white font-semibold'>Material UI</h3>
+                                <h3 className='text-center w-3/4 xl:w-2/4 text-2xl text-white font-semibold'>Material UI</h3>
                             </div>
 
                             <p className="text-white text-lg">
@@ -72,7 +72,7 @@ export default function Conhecimentos() {
                             <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
                                 <img className='w-11' src={JS} alt='react-svg' />
 
-                                <h3 className='text-center w-3/4 xl:w-1/3 text-2xl text-white font-semibold'>JavScript</h3>
+                                <h3 className='text-center w-3/4 xl:w-2/4 text-2xl text-white font-semibold'>JavScript</h3>
                             </div>
 
                             <p className="text-white text-lg">JavaScript é uma linguagem de programação interpretada, estruturada de scripts em alto nível, com tipagem dinâmica fraca e multiparadigma.</p>
