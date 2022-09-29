@@ -25,7 +25,7 @@ export default function Projetos() {
 
                         <div className='flex flex-col items-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/4 xl:m-5 my-5'>
                             <h3 className='text-2xl text-white font-semibold'>Sorveteria</h3>
-                            <p className="text-white text-lg">Projeto de SPA para uma Sorveteria aplicando o conceito de Mobile First</p>
+                            <p className="text-white text-lg">Projeto de SPA para uma Sorveteria aplicando o conceito de Mobile First.</p>
                             <ul className='flex flex-col items-center'>
                                 <h4 className='text-lg text-white font-semibold'>Tecnologias utilizadas</h4>
                                 <li type='disc' className='text-sm w-2/4 text-white'>JavaScript</li>
@@ -43,7 +43,7 @@ export default function Projetos() {
 
                         <div className='flex flex-col items-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/4 xl:m-5 my-5'>
                             <h3 className='text-2xl text-white font-semibold'>Projeto Help Dev</h3>
-                            <p className="text-white text-lg">Página dedicada a fornecer materiais de consulta para quem está estudando sobre desenvolvidos</p>
+                            <p className="text-white text-lg">Página dedicada a fornecer materiais de consulta para quem está estudando sobre desenvolvidos.</p>
                             <ul className='flex flex-col items-center'>
                                 <h4 className='text-lg text-white font-semibold'>Tecnologias utilizadas</h4>
                                 <li type='disc' className='text-sm w-2/4 text-white'>HTML 5</li>
@@ -61,7 +61,7 @@ export default function Projetos() {
 
                         <div className='flex flex-col items-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/4 xl:m-5 my-5'>
                             <h3 className='text-2xl text-white font-semibold'>Meus Links</h3>
-                            <p className="text-white text-lg">Página contendo meus links principais</p>
+                            <p className="text-white text-lg">Página contendo meus links principais.</p>
                             <ul className='flex flex-col items-center'>
                                 <h4 className='text-lg text-white font-semibold'>Tecnologias utilizadas</h4>
                                 <li type='disc' className='text-sm w-2/4 text-white'>HTML 5</li>
@@ -77,7 +77,7 @@ export default function Projetos() {
 
                         <div className='flex flex-col items-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/4 xl:m-5 my-5'>
                             <h3 className='text-2xl text-white font-semibold'>Adivinhe Seu Futuro</h3>
-                            <p className="text-white text-lg">Página na qual você faz uma pergunta e uma resposta será dada de acordo</p>
+                            <p className="text-white text-lg">Página na qual você faz uma pergunta e uma resposta será dada de acordo.</p>
                             <ul className='flex flex-col items-center'>
                                 <h4 className='text-lg text-white font-semibold'>Tecnologias utilizadas</h4>
                                 <li type='disc' className='text-sm w-2/4 text-white'>HTML 5</li>
@@ -94,7 +94,7 @@ export default function Projetos() {
 
                         <div className='flex flex-col items-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/4 xl:m-5 my-5'>
                             <h3 className='text-2xl text-white font-semibold'>Verificação de vendas</h3>
-                            <p className="text-white text-lg">Projeto fullstack com React e Spring de relatório de vendas por período com envio de sms com dados das vendas</p>
+                            <p className="text-white text-lg">Projeto fullstack com React e Spring de relatório de vendas por período com envio de sms com dados das vendas.</p>
                             <ul className='flex flex-col items-center'>
                                 <h4 className='text-lg text-white font-semibold'>Tecnologias utilizadas</h4>
                                 <li type='disc' className='text-sm w-2/4 text-white'>TypeScript</li>
@@ -108,12 +108,12 @@ export default function Projetos() {
                             </div>
 
                             <a className="text-white hover:bg-dark-blue-project text-md border-4 border-blue-900 py-1 px-4 rounded-2xl" href='https://www.linkedin.com/posts/mferreiradb_react-reactjs-vendas-activity-6974475209961558016-oLAo?utm_source=share&utm_medium=member_desktop' target='_blank'>Acessar</a>
-                            <p className="text-white text-md italic">Este projeto não está online devido dificuldades com a Heroku, porém ao clicar em Acessar, você será redirecionado(a) para a minha publicação feita no Linkedin</p>
+                            <p className="text-white text-md italic">Este projeto não está online devido dificuldades com a Heroku, porém ao clicar em Acessar, você será redirecionado(a) para a minha publicação feita no Linkedin.</p>
                         </div>
 
                         <div className='flex flex-col items-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/4 xl:m-5 my-5'>
                             <h3 className='text-2xl text-white font-semibold'>Concreta Serviços de Engenharia</h3>
-                            <p className="text-white text-lg">Página desenvolvida para um cliente que possui uma empresa de engenharia</p>
+                            <p className="text-white text-lg">Página desenvolvida para uma empresa de engenharia.</p>
                             <ul className='flex flex-col items-center'>
                                 <h4 className='text-lg text-white font-semibold'>Tecnologias utilizadas</h4>
                                 <li type='disc' className='text-sm w-2/4 text-white'>JavaScript</li>

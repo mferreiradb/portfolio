@@ -11,6 +11,7 @@ import CSS from '../../assets/css.png'
 import Flutter from '../../assets/flutter.png'
 import Dart from '../../assets/dart.png'
 import Python from '../../assets/py.png'
+import MYSQL from '../../assets/mysql.png'
 
 export default function Conhecimentos() {
     return (
@@ -98,6 +99,18 @@ export default function Conhecimentos() {
 
                             <p className="text-white text-lg">CSS3 é a terceira e mais nova versão das famosas Cascading Style Sheets, pela qual se define estilos para um projeto web.</p>
                         </div>
+
+                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
+
+                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
+                                <img className='w-24' src={MYSQL} alt='react-svg' />
+
+                                <h3 className='text-center w-3/4 xl:w-1/3 text-2xl text-white font-semibold'>MYSQL</h3>
+                            </div>
+
+                            <p className="text-white text-lg">O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.</p>
+                        </div>
+
                     </div>
                 </div>
 
