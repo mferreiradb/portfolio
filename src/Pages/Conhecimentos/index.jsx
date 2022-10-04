@@ -94,13 +94,7 @@ const Conhecimentos = () => {
 
                     <div className="flex flex-col justify-center text-center my-28 xl:flex-row xl:flex-wrap">
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
-
-                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
-                                <img src={React} alt='react-svg' />
-
-                                <h3 className='text-center w-2/3 xl:w-2/4 text-2xl text-white font-semibold'>React Native</h3>
-                            </div>
+                        <Card img={React} titulo='React Native'>
                             <p className="text-white text-lg">React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa.</p>
                             <ul className='flex flex-col items-center space-y-1'>
                                 <h4 className='text-lg text-white font-semibold'>Habilidades</h4>
@@ -108,35 +102,19 @@ const Conhecimentos = () => {
                                 <li type='disc' className='text-sm w-7/8 text-white'>Componentização</li>
                                 <li type='disc' className='text-sm w-7/8 text-white'>Estilização</li>
                             </ul>
-                            <p className="text-white text-md italic">Neste momento, estou em pausa nos estudos com o objetivo de explorar as possibilidades de outra tecnologia para desenvolvimento de apps nativos multi plataforma</p>
-                        </div>
+                        </Card>
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
-
-                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
-                                <img className='w-12' src={Flutter} alt='react-svg' />
-
-                                <h3 className='text-center w-3/4 xl:w-1/3 text-2xl text-white font-semibold'>Flutter</h3>
-                            </div>
-
+                        <Card img={Flutter} titulo='Flutter'>
                             <p className="text-white text-lg">Flutter é um kit de desenvolvimento de interface de usuário, que possibilita a criação de aplicativos compilados nativamente, para os sistemas operacionais Android, iOS, Windows, Mac, Linux e, Fuchsia e Web.</p>
 
-                            <p className="text-white text-md italic">Atualmente, estou explorando a tecnologia para verificar se irei investir nela ou no <b>React Native</b></p>
-                        </div>
+                            <p className="text-white text-md italic">Iniciei os estudos nesta tecnologia, porém optei por pausar para investir mais no <b>React Native</b></p>
+                        </Card>
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
-
-                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
-                                <img className='w-12' src={Dart} alt='react-svg' />
-
-                                <h3 className='text-center w-3/4 xl:w-1/3 text-2xl text-white font-semibold'>Dart</h3>
-                            </div>
-
+                        <Card img={Dart} titulo='Dart'>
                             <p className="text-white text-lg">Dart é uma linguagem de programação voltada à web desenvolvida pela Google. O objetivo da linguagem Dart foi, inicialmente, de substituir a JavaScript como a linguagem principal embutida nos navegadores. Hoje ela é utilizada em maior parte no desenvolvimento de aplicações Flutter</p>
 
-                            <p className="text-white text-md italic">Atualmente, estou explorando a tecnologia para verificar se irei investir nela ou no <b>React Native</b></p>
-                        </div>
-
+                            <p className="text-white text-md italic">Iniciei os estudos nesta tecnologia, porém optei por pausar para investir mais no <b>React Native</b></p>
+                        </Card>
                         <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
 
                             <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
