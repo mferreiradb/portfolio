@@ -13,6 +13,7 @@ import Dart from '../../assets/dart.png'
 import Python from '../../assets/py.png'
 import MYSQL from '../../assets/mysql.png'
 import GIT from '../../assets/git.png'
+import Card from "../../components/Card";
 
 export default function Conhecimentos() {
     return (
@@ -28,13 +29,7 @@ export default function Conhecimentos() {
 
                     <div className="flex flex-col justify-center text-center my-28 xl:flex-row xl:flex-wrap">
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
-
-                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
-                                <img src={React} alt='react-svg' />
-
-                                <h3 className='text-center w-2/3 xl:w-2/4 text-2xl text-white font-semibold'>React JS</h3>
-                            </div>
+                        <Card img={React} titulo='React JS'>
                             <p className="text-white text-lg">O React é uma biblioteca JavaScript com foco em criar interfaces de usuário em páginas web.</p>
                             <ul className='flex flex-col items-center space-y-1'>
                                 <h4 className='text-lg text-white font-semibold'>Habilidades</h4>
@@ -43,41 +38,21 @@ export default function Conhecimentos() {
                                 <li type='disc' className='text-sm w-7/8 text-white'>Rotas</li>
                                 <li type='disc' className='text-sm w-7/8 text-white'>Props</li>
                             </ul>
-                        </div>
+                        </Card>
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
-
-                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
-                                <img className='w-12' src={Tailwind} alt='react-svg' />
-
-                                <h3 className='text-center w-3/4 xl:w-2/4 text-2xl text-white font-semibold'>TailWind CSS</h3>
-                            </div>
-
+                        <Card img={Tailwind} titulo='Tailwind CSS'>
                             <p className="text-white text-lg">Biblioteca CSS com foco no conceito <b>Mobile First</b> que facilita na estilizaçãoe e responsividade através de classes.</p>
-                        </div>
+                        </Card>
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
-
-                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
-                                <img className='w-11' src={MUI} alt='react-svg' />
-
-                                <h3 className='text-center w-3/4 xl:w-2/4 text-2xl text-white font-semibold'>Material UI</h3>
-                            </div>
-
+                        <Card img={MUI} titulo='Material UI'>
                             <p className="text-white text-lg">
                                 Biblioteca que nos permite importar e usar diferentes componentes para criar uma interface de usuário em nossos aplicativos React. </p>
-                        </div>
+                        </Card>
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
-
-                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
-                                <img className='w-11' src={JS} alt='react-svg' />
-
-                                <h3 className='text-center w-3/4 xl:w-2/4 text-2xl text-white font-semibold'>JavScript</h3>
-                            </div>
+                        <Card img={JS} titulo='JavaScript'>
 
                             <p className="text-white text-lg">JavaScript é uma linguagem de programação interpretada, estruturada de scripts em alto nível, com tipagem dinâmica fraca e multiparadigma.</p>
-                        </div>
+                        </Card>
 
                         <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
 
