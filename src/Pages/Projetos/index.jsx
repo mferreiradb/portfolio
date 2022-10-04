@@ -12,7 +12,7 @@ import Concreta from '../../assets/Concreta.png'
 import AcessButton from '../../components/AcessButton';
 
 
-export default function Projetos() {
+const Projetos = () => {
     return (
         <div>
             <Header />
@@ -143,3 +143,4 @@ export default function Projetos() {
         </div>
     )
 }
+export default Projetos

@@ -4,7 +4,7 @@ import Conhecimentos from "../Pages/Conhecimentos";
 import Home from "../Pages/Home";
 import Projetos from "../Pages/Projetos";
 
-export default function Rotas() {
+const Rotas = () => {
     return (
         <BrowserRouter>
             <Routes>
@@ -15,3 +15,4 @@ export default function Rotas() {
         </BrowserRouter>
     )
 }
+export default Rotas

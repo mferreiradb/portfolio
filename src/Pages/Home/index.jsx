@@ -4,7 +4,7 @@ import MinhaFoto from '../../assets/minha-foto.png'
 import Footer from '../../components/Footer'
 import FloatButton from '../../components/FloatButton'
 
-export default function Home() {
+const Home = () => {
     const dev = "<JuniorDeveloper />"
 
     return (
@@ -44,3 +44,4 @@ export default function Home() {
         </div>
     )
 }
+export default Home

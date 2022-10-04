@@ -15,7 +15,7 @@ import MYSQL from '../../assets/mysql.png'
 import GIT from '../../assets/git.png'
 import Card from "../../components/Card";
 
-export default function Conhecimentos() {
+const Conhecimentos = () => {
     return (
         <div>
             <Header />
@@ -160,3 +160,4 @@ export default function Conhecimentos() {
         </div>
     )
 }
+export default Conhecimentos
