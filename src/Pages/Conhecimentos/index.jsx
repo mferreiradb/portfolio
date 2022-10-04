@@ -54,49 +54,31 @@ export default function Conhecimentos() {
                             <p className="text-white text-lg">JavaScript é uma linguagem de programação interpretada, estruturada de scripts em alto nível, com tipagem dinâmica fraca e multiparadigma.</p>
                         </Card>
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
-
-                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
-                                <img className='w-11' src={HTML} alt='react-svg' />
-
-                                <h3 className='text-center w-3/4 xl:w-1/3 text-2xl text-white font-semibold'>HTML 5</h3>
-                            </div>
+                        <Card img={HTML} titulo='HTML 5'>
 
                             <p className="text-white text-lg">HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet. É a quinta versão da linguagem HTML, que passou a ser conheciida como HTML Semântico.</p>
-                        </div>
+                        </Card>
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
-
-                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
-                                <img className='w-11' src={CSS} alt='react-svg' />
-
-                                <h3 className='text-center w-3/4 xl:w-1/3 text-2xl text-white font-semibold'>CSS 3</h3>
-                            </div>
+                        <Card img={CSS} titulo='CSS 3'>
 
                             <p className="text-white text-lg">CSS3 é a terceira e mais nova versão das famosas Cascading Style Sheets, pela qual se define estilos para um projeto web.</p>
-                        </div>
+                        </Card>
 
                         <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
 
                             <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
                                 <img className='w-24' src={MYSQL} alt='react-svg' />
 
-                                <h3 className='text-center w-3/4 xl:w-1/3 text-2xl text-white font-semibold'>MYSQL</h3>
+                                <h3 className='text-center md:pr-11 w-2/3 xl:w-2/4 text-2xl text-white font-semibold'>MYSQL</h3>
                             </div>
 
                             <p className="text-white text-lg">O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.</p>
                         </div>
 
-                        <div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
-
-                            <div className='flex w-full justify-center items-center pr-10 xl:pr-12'>
-                                <img className='w-12' src={GIT} alt='react-svg' />
-
-                                <h3 className='text-center w-3/4 xl:w-1/3 text-2xl text-white font-semibold'>GIT</h3>
-                            </div>
+                        <Card img={GIT} titulo='GIT'>
 
                             <p className="text-white text-lg">Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.</p>
-                        </div>
+                        </Card>
 
                     </div>
                 </div>
