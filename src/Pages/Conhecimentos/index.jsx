@@ -40,6 +40,16 @@ const Conhecimentos = () => {
                             </ul>
                         </Card>
 
+                        <Card img={React} titulo='React Native'>
+                            <p className="text-white text-lg">React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa.</p>
+                            <ul className='flex flex-col items-center space-y-1'>
+                                <h4 className='text-lg text-white font-semibold'>Habilidades</h4>
+                                <li type='disc' className='text-sm w-7/8 text-white'>Exibição de imagens</li>
+                                <li type='disc' className='text-sm w-7/8 text-white'>Componentização</li>
+                                <li type='disc' className='text-sm w-7/8 text-white'>Estilização</li>
+                            </ul>
+                        </Card>
+
                         <Card img={Tailwind} titulo='Tailwind CSS'>
                             <p className="text-white text-lg">Biblioteca CSS com foco no conceito <b>Mobile First</b> que facilita na estilizaçãoe e responsividade através de classes.</p>
                         </Card>
@@ -93,16 +103,6 @@ const Conhecimentos = () => {
 
 
                     <div className="flex flex-col justify-center text-center my-28 xl:flex-row xl:flex-wrap">
-
-                        <Card img={React} titulo='React Native'>
-                            <p className="text-white text-lg">React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa.</p>
-                            <ul className='flex flex-col items-center space-y-1'>
-                                <h4 className='text-lg text-white font-semibold'>Habilidades</h4>
-                                <li type='disc' className='text-sm w-7/8 text-white'>Exibição de imagens</li>
-                                <li type='disc' className='text-sm w-7/8 text-white'>Componentização</li>
-                                <li type='disc' className='text-sm w-7/8 text-white'>Estilização</li>
-                            </ul>
-                        </Card>
 
                         <Card img={Flutter} titulo='Flutter'>
                             <p className="text-white text-lg">Flutter é um kit de desenvolvimento de interface de usuário, que possibilita a criação de aplicativos compilados nativamente, para os sistemas operacionais Android, iOS, Windows, Mac, Linux e, Fuchsia e Web.</p>
