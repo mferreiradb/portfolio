@@ -1,6 +1,7 @@
 import FloatButton from '../../components/FloatButton';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
+import Card from '../../components/Card';
 
 import React from '../../assets/react.svg';
 import Tailwind from '../../assets/tailwind.png';
@@ -13,7 +14,7 @@ import Dart from '../../assets/dart.png';
 import Python from '../../assets/py.png';
 import MYSQL from '../../assets/mysql.png';
 import GIT from '../../assets/git.png';
-import Card from '../../components/Card';
+import Eslint from '../../assets/Eslint.png';
 
 const Conhecimentos = () => {
 	return (
@@ -56,7 +57,7 @@ const Conhecimentos = () => {
 
 						<Card img={MUI} titulo='Material UI'>
 							<p className="text-white text-lg">
-                                Biblioteca que nos permite importar e usar diferentes componentes para criar uma interface de usuário em nossos aplicativos React. </p>
+								Biblioteca que nos permite importar e usar diferentes componentes para criar uma interface de usuário em nossos aplicativos React. </p>
 						</Card>
 
 						<Card img={JS} titulo='JavaScript'>
@@ -88,6 +89,11 @@ const Conhecimentos = () => {
 						<Card img={GIT} titulo='GIT'>
 
 							<p className="text-white text-lg">Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.</p>
+						</Card>
+
+						<Card img={Eslint} titulo='EsLint'>
+
+							<p className="text-white text-lg">ESLint é uma ferramenta de análise de código estática para identificar padrões problemáticos encontrados no código JavaScript. As regras no ESLint são configuráveis e regras personalizadas, podem ser definidas e carregadas.</p>
 						</Card>
 
 					</div>
