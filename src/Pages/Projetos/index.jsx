@@ -128,7 +128,7 @@ const Projetos = () => {
 								<img src={Concreta} className='w-3/4 xl:w-52 grayscale' />
 							</div>
                             
-							<p className="text-white text-md italic">Este projeto ainda está em fase de desenvolvimento. Assim que finalizado, estará disponível!</p>
+							<p className="text-white text-md font-bold italic">Este projeto ainda está em fase de desenvolvimento. Assim que finalizado, estará disponível!</p>
 						</div>
 					</div>
 				</div>
