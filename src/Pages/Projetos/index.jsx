@@ -125,12 +125,10 @@ const Projetos = () => {
 							</ul>
 
 							<div className='flex grow items-center justify-center w-full'>
-								<img src={Concreta} className='w-3/4 xl:w-52' />
+								<img src={Concreta} className='w-3/4 xl:w-52 grayscale' />
 							</div>
-
-							<AcessButton url='https://concreta-e85r.vercel.app/' />
                             
-							<p className="text-white text-md italic">Este projeto ainda está em fase de desenvolvimento. Você pode acompanhar como está o andamento do projeto clicando no botão para acessar!</p>
+							<p className="text-white text-md italic">Este projeto ainda está em fase de desenvolvimento. Assim que finalizado, estará disponível!</p>
 						</div>
 					</div>
 				</div>
