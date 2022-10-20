@@ -1,4 +1,3 @@
-import './style.css';
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
 import { FloatButton } from '../../components/FloatButton';
@@ -9,7 +8,7 @@ export const Home = () => {
 	const dev = '<JuniorDeveloper />';
 
 	return (
-		<div>
+		<>
 			<Header />
 			<section id='topo' className="section-home fundo-home">
 
@@ -28,21 +27,21 @@ export const Home = () => {
 
 			</section>
 
-			<section className="bg-light-blue-project flex flex-col items-center px-5 py-12 xl:flex xl:justify-center">
+			<section className="bg-light-blue-project flex flex-col items-center px-5 py-12 xl:flex xl:justify-center text-center justify-center space-y-6 xl:flex-row xl:px-5 xl:space-x-10">
 
-				<div className='text-center flex flex-col items-center justify-center space-y-6 xl:flex-row xl:px-5 xl:justify-center xl:space-x-10'>
+				<figure>
 					<img src={MinhaFoto} alt='minha-foto' />
+				</figure>
 
-					<div className='text-center flex flex-col items-center space-y-6 xl:w-1/2'>
+				<article className='text-center flex flex-col items-center space-y-6 xl:w-1/2'>
 
-						<h2 className='text-3xl text-white font-semibold'>Quem sou eu?</h2>
+					<h2 className='text-3xl text-white font-semibold'>Quem sou eu?</h2>
 
-						<p className='text-white text-lg leading-relaxed'>Meu nome é Mauricio, sou natural de Parnaíba-PI. Tenho formação técnica em Administração, Atendimento ao Cliente e Gestão de Pessoas. Estou me desenvolvendo na área de Tecnologia e busco trabalhar com programação. Possuo experiência com Bancos de Dados SQL (MYSQL e Firebird), linguagem Javascript, React Js, React Native, Photoshop, Figma e Pacote Office, além de já ter estudado Python e Java. Estou estudando desenvolvimento FullStack na DevMedia, uma das maiores escolas de programação do mercado.</p>
-					</div>
-				</div>
+					<p className='text-white text-lg leading-relaxed'>Meu nome é Mauricio, sou natural de Parnaíba-PI. Tenho formação técnica em Administração, Atendimento ao Cliente e Gestão de Pessoas. Estou me desenvolvendo na área de Tecnologia e busco trabalhar com programação. Possuo experiência com Bancos de Dados SQL (MYSQL e Firebird), linguagem Javascript, React Js, React Native, Photoshop, Figma e Pacote Office, além de já ter estudado Python e Java. Estou estudando desenvolvimento FullStack na DevMedia, uma das maiores escolas de programação do mercado.</p>
+				</article>
 			</section>
 			<FloatButton />
 			<Footer />
-		</div>
+		</>
 	);
 };
