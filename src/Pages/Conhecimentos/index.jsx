@@ -13,7 +13,7 @@ import MYSQL from '../../assets/mysql.png';
 import GIT from '../../assets/git.png';
 import Eslint from '../../assets/Eslint.png';
 
-const Conhecimentos = () => {
+export const Conhecimentos = () => {
 	return (
 		<div>
 			<Header />
@@ -99,4 +99,3 @@ const Conhecimentos = () => {
 		</div>
 	);
 };
-export default Conhecimentos;

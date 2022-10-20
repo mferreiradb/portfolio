@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Conhecimentos from '../Pages/Conhecimentos';
+import { Conhecimentos } from '../Pages/Conhecimentos';
 import Home from '../Pages/Home';
 import Projetos from '../Pages/Projetos';
 
-const Rotas = () => {
+export const Rotas = () => {
 	return (
 		<BrowserRouter>
 			<Routes>
@@ -14,4 +14,3 @@ const Rotas = () => {
 		</BrowserRouter>
 	);
 };
-export default Rotas;
