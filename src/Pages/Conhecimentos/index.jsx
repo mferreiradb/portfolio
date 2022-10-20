@@ -18,7 +18,7 @@ export const Conhecimentos = () => {
 		<div>
 			<Header />
 
-			<section id='topo' className="bg-light-blue-project justify-center flex flex-col xl:flex-row xl:flex-wrap p-5 space-y-6 py-20 text-center">
+			<section id='topo' className="section-conhecimentos">
 
 				<article className='w-full'>
 					<h2 className='text-3xl text-white font-semibold'>Conhecimentos Mais Sólidos</h2>
