@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-const Card = (props) => {
+export const Card = (props) => {
 	return (
 		<article className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
 
@@ -13,5 +13,3 @@ const Card = (props) => {
 		</article>
 	);
 };
-
-export default Card;

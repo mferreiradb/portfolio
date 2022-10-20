@@ -3,7 +3,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import CallIcon from '@mui/icons-material/Call';
 
-const Footer = () => (
+export const Footer = () => (
 	<footer className='space-y-5 pt-16 pb-5 flex flex-col items-center text-center border-t-2 bg-dark-blue-project border-blue-900'>
 
 		<div className="space-y-5">
@@ -38,4 +38,3 @@ const Footer = () => (
 
 	</footer>
 );
-export default Footer;

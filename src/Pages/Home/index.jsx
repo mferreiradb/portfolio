@@ -1,10 +1,11 @@
 import './style.css';
-import Header from '../../components/Header';
-import MinhaFoto from '../../assets/minha-foto.png';
-import Footer from '../../components/Footer';
-import FloatButton from '../../components/FloatButton';
+import { Header } from '../../components/Header';
+import { Footer } from '../../components/Footer';
+import { FloatButton } from '../../components/FloatButton';
 
-const Home = () => {
+import MinhaFoto from '../../assets/minha-foto.png';
+
+export const Home = () => {
 	const dev = '<JuniorDeveloper />';
 
 	return (
@@ -44,4 +45,3 @@ const Home = () => {
 		</div>
 	);
 };
-export default Home;

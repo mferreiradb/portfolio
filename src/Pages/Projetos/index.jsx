@@ -1,7 +1,8 @@
 import './style.css';
-import Footer from '../../components/Footer';
-import Header from '../../components/Header';
-import FloatButton from '../../components/FloatButton';
+import { Footer } from '../../components/Footer';
+import { Header } from '../../components/Header';
+import { FloatButton } from '../../components/FloatButton';
+import { AcessButton } from '../../components/AcessButton';
 
 import Sorveteria from '../../assets/sorveteria.png';
 import HelpDev from '../../assets/HelpDev.png';
@@ -9,10 +10,9 @@ import MeusLinks from '../../assets/meus-links.png';
 import SeuFuturo from '../../assets/SeuFuturo.png';
 import DsMeta from '../../assets/dsMeta.png';
 import Concreta from '../../assets/Concreta.png';
-import AcessButton from '../../components/AcessButton';
 
 
-const Projetos = () => {
+export const Projetos = () => {
 	return (
 		<div>
 			<Header />
@@ -141,4 +141,3 @@ const Projetos = () => {
 		</div>
 	);
 };
-export default Projetos;

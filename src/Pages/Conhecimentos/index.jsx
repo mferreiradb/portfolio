@@ -1,7 +1,7 @@
-import FloatButton from '../../components/FloatButton';
-import Footer from '../../components/Footer';
-import Header from '../../components/Header';
-import Card from '../../components/Card';
+import { FloatButton } from '../../components/FloatButton';
+import { Footer } from '../../components/Footer';
+import { Header } from '../../components/Header';
+import { Card } from '../../components/Card';
 
 import React from '../../assets/react.svg';
 import Tailwind from '../../assets/tailwind.png';

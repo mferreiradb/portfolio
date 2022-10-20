@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-const Header = () => {
+export const Header = () => {
 
 	return (
 		<header className="fixed z-1 w-screen py-4 text-center border-b-2 bg-dark-blue-project border-blue-900">
@@ -16,4 +16,3 @@ const Header = () => {
 		</header>
 	);
 };
-export default Header;
