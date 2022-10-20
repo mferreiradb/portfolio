@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const Card = (props) => {
 	return (
-		<div className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
+		<article className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
 
 			<figure className='flex w-full justify-center items-center pr-10 xl:pr-12'>
 				<img className='w-12 p-1' src={props.img} alt='react-svg' />
@@ -10,7 +10,7 @@ const Card = (props) => {
 			</figure>
 
 			{props.children}
-		</div>
+		</article>
 	);
 };
 
