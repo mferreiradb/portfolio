@@ -10,7 +10,7 @@ export const Home = () => {
 	return (
 		<>
 			<Header />
-			<section id='topo' className="section-home fundo-home">
+			<section id='topo' className="section-dark fundo-home">
 
 				<article className="flex flex-col justify-center space-y-6 text-center my-28">
 					<p className="text-slate-300 text-2xl lg:text-4xl">Olá! Tudo bem? Eu me chamo</p>
@@ -27,7 +27,7 @@ export const Home = () => {
 
 			</section>
 
-			<section className="bg-light-blue-project flex flex-col items-center px-5 py-12 xl:flex xl:justify-center text-center justify-center space-y-6 xl:flex-row xl:px-5 xl:space-x-10">
+			<section className="section-light-home">
 
 				<figure>
 					<img src={MinhaFoto} alt='minha-foto' />
