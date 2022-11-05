@@ -12,6 +12,7 @@ import CSS from '../../assets/css.png';
 import MYSQL from '../../assets/mysql.png';
 import GIT from '../../assets/git.png';
 import Eslint from '../../assets/Eslint.png';
+import Node from '../../assets/node.png';
 
 export const Conhecimentos = () => {
 	return (
@@ -58,6 +59,11 @@ export const Conhecimentos = () => {
 				<Card img={JS} titulo='JavaScript'>
 
 					<p className="text-white text-lg">JavaScript é uma linguagem de programação interpretada, estruturada de scripts em alto nível, com tipagem dinâmica fraca e multiparadigma.</p>
+				</Card>
+
+				<Card img={Node} titulo='Node.JS'>
+
+					<p className="text-white text-lg">Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.</p>
 				</Card>
 
 				<Card img={HTML} titulo='HTML 5'>
