@@ -20,7 +20,7 @@ export const Home = () => {
 
 
 				<code className='text-white text-xl flex flex-col justify-center leading-normal lg:text-3xl xl:text-4xl'>
-					System.out.println(&quot;Hello world!&#34;);<br />
+					Console.WriteLine(&quot;Hello world!&#34;);<br />
 					console.log(&quot;Hello world!&#34;);<br />
 					print(&quot;Hello world!&#34;)
 				</code>
@@ -37,7 +37,7 @@ export const Home = () => {
 
 					<h2 className='text-3xl text-white font-semibold'>Quem sou eu?</h2>
 
-					<p className='text-white text-lg leading-relaxed'>Meu nome é Mauricio, sou natural de Parnaíba-PI. Tenho formação técnica em Administração, Atendimento ao Cliente e Gestão de Pessoas. Estou me desenvolvendo na área de Tecnologia e busco trabalhar com programação. Possuo experiência com Bancos de Dados SQL (MYSQL e Firebird), linguagem Javascript, React Js, React Native, Photoshop, Figma e Pacote Office, além de já ter estudado Python e Java. Estou estudando desenvolvimento FullStack na DevMedia, uma das maiores escolas de programação do mercado.</p>
+					<p className='text-white text-lg leading-relaxed'>Meu nome é Mauricio, sou natural de Parnaíba-PI. Tenho formação técnica em Administração, Atendimento ao Cliente e Gestão de Pessoas. Estou me desenvolvendo na área de Tecnologia e busco trabalhar com programação. Possuo experiência com Bancos de Dados SQL (MYSQL e Firebird), linguagem Javascript, React Js, Figma, NodeJs e Sequelize, além de estar estudado C# e ter conhecimento básico de MVC. Estou estudando desenvolvimento FullStack na DevMedia, uma das maiores escolas de programação do mercado.</p>
 				</article>
 			</section>
 			<FloatButton />
