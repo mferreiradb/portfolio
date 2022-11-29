@@ -60,7 +60,7 @@ export const Conhecimentos = () => {
 					<figure className='flex w-full justify-center items-center pr-10 xl:pr-12'>
 						<img className='w-24' src={Bootstrap} alt='react-svg' />
 
-						<figcaption className='text-center md:pr-11 w-2/3 xl:w-2/4 text-2xl text-white font-semibold'>MYSQL</figcaption>
+						<figcaption className='text-center md:pr-11 w-2/3 xl:w-2/4 text-2xl text-white font-semibold'>Bootstrap</figcaption>
 					</figure>
 
 					<p className="text-white text-lg">Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web, usando HTML, CSS e JavaScript.</p>
