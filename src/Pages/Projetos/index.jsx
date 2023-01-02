@@ -5,10 +5,10 @@ import { AcessButton } from '../../components/AcessButton';
 
 import Sorveteria from '../../assets/sorveteria.png';
 import HelpDev from '../../assets/HelpDev.png';
-import MeusLinks from '../../assets/meus-links.png';
 import SeuFuturo from '../../assets/SeuFuturo.png';
-import DsMeta from '../../assets/dsMeta.png';
-import Concreta from '../../assets/Concreta.png';
+import Perguntas from '../../assets/print-respostas.png';
+import Blog from '../../assets/blog.png';
+import FinAPI from '../../assets/Capturar-insomnia.png';
 
 
 export const Projetos = () => {
@@ -57,25 +57,8 @@ export const Projetos = () => {
 					<AcessButton url='https://mferreiradb.github.io/help-dev/' />
 				</article>
 
-
 				<article className='flex flex-col items-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/4 xl:m-5 my-5'>
-					<h3 className='text-2xl text-white font-semibold'>Meus Links</h3>
-					<p className="text-white text-lg">Página contendo meus links principais.</p>
-					<ul className='flex flex-col items-center'>
-						<h4 className='text-lg text-white font-semibold'>Tecnologias utilizadas</h4>
-						<li type='disc' className='text-sm w-2/4 text-white'>HTML 5</li>
-						<li type='disc' className='text-sm w-2/4 text-white'>CSS 3</li>
-					</ul>
-
-					<figure className='flex grow items-center justify-center w-full'>
-						<img src={MeusLinks} className='w-3/4 xl:w-52' />
-					</figure>
-
-					<AcessButton url='https://mferreiradb.github.io/meus-links/' />
-				</article>
-
-				<article className='flex flex-col items-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/4 xl:m-5 my-5'>
-					<h3 className='text-2xl text-white font-semibold'>Afigureinhe Seu Futuro</h3>
+					<h3 className='text-2xl text-white font-semibold'>Adivinhe Seu Futuro</h3>
 					<p className="text-white text-lg">Página na qual você faz uma pergunta e uma resposta será dada de acordo.</p>
 					<ul className='flex flex-col items-center'>
 						<h4 className='text-lg text-white font-semibold'>Tecnologias utilizadas</h4>
@@ -92,41 +75,69 @@ export const Projetos = () => {
 				</article>
 
 				<article className='flex flex-col items-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/4 xl:m-5 my-5'>
-					<h3 className='text-2xl text-white font-semibold'>Verificação de vendas</h3>
-					<p className="text-white text-lg">Projeto fullstack com React e Spring de relatório de vendas por período com envio de sms com dados das vendas.</p>
+					<h3 className='text-2xl text-white font-semibold'>Perguntas e Respostas</h3>
+					<p className="text-white text-lg">Projeto fullstack com backend em Node.Js + Mysql e frontend utilizando Embedded Javascript + Bootstrap. Esta é uma plataforma na qual é possível realizar perguntas anônimas e responder anonimamente a perguntas já feitas.</p>
 					<ul className='flex flex-col items-center'>
 						<h4 className='text-lg text-white font-semibold'>Tecnologias utilizadas</h4>
-						<li type='disc' className='text-sm w-2/4 text-white'>TypeScript</li>
-						<li type='disc' className='text-sm w-2/4 text-white'>React JS</li>
-						<li type='disc' className='text-sm w-2/4 text-white'>Java</li>
-						<li type='disc' className='text-sm w-2/4 text-white'>Spring</li>
+						<li type='disc' className='text-sm w-2/4 text-white'>Javascript</li>
+						<li type='disc' className='text-sm w-2/4 text-white'>Embadded JS</li>
+						<li type='disc' className='text-sm w-2/4 text-white'>Bootstrap</li>
+						<li type='disc' className='text-sm w-2/4 text-white'>Node.Js</li>
+						<li type='disc' className='text-sm w-2/4 text-white'>Sequelize</li>
+						<li type='disc' className='text-sm w-2/4 text-white'>Mysql</li>
+						<li type='disc' className='text-sm w-2/4 text-white'>Express</li>
 					</ul>
 
 					<figure className='flex grow items-center justify-center w-full'>
-						<img src={DsMeta} className='w-3/4 xl:w-52' />
+						<img src={Perguntas} className='w-3/4 xl:w-52' />
 					</figure>
 
-					<AcessButton url='https://www.linkedin.com/posts/mferreiradb_react-reactjs-vendas-activity-6974475209961558016-oLAo?utm_source=share&utm_medium=member_desktop' />
+					<AcessButton url='https://www.linkedin.com/posts/mferreiradb_nodejs-mysql-javascript-activity-6999571102158991360-4aMx?utm_source=share&utm_medium=member_desktop' />
 
-					<p className="text-white text-md italic">Este projeto não está online devido dificuldades com a Heroku, porém ao clicar em Acessar, você será redirecionado(a) para a minha publicação feita no Linkedin.</p>
+					<p className="text-white text-md italic">Este projeto não está online devido envolver backend, porém ao clicar em Acessar, você será redirecionado(a) para a minha publicação feita no Linkedin.</p>
 				</article>
 
 				<article className='flex flex-col items-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/4 xl:m-5 my-5'>
-					<h3 className='text-2xl text-white font-semibold'>Concreta Serviços de Engenharia</h3>
-					<p className="text-white text-lg">Página desenvolvida para uma empresa de engenharia.</p>
+					<h3 className='text-2xl text-white font-semibold'>Blog</h3>
+					<p className="text-white text-lg">Projeto fullstack com backend em Node.Js + Mysql e frontend utilizando Embedded Javascript + Bootstrap. Este é um blog, no qual podemos criar um usuário e este usuário pode criar artigos, categorias, fazer filtragens e editar esses artigos e categorias.</p>
 					<ul className='flex flex-col items-center'>
 						<h4 className='text-lg text-white font-semibold'>Tecnologias utilizadas</h4>
-						<li type='disc' className='text-sm w-2/4 text-white'>JavaScript</li>
-						<li type='disc' className='text-sm w-2/4 text-white'>React JSS</li>
-						<li type='disc' className='text-sm w-2/4 text-white'>TailWind CSS</li>
-						<li type='disc' className='text-sm w-4/4 text-white'>React-Router-Dom</li>
+						<li type='disc' className='text-sm w-2/4 text-white'>Javascript</li>
+						<li type='disc' className='text-sm w-2/4 text-white'>Embadded JS</li>
+						<li type='disc' className='text-sm w-2/4 text-white'>Bootstrap</li>
+						<li type='disc' className='text-sm w-2/4 text-white'>Node.Js</li>
+						<li type='disc' className='text-sm w-2/4 text-white'>Sequelize</li>
+						<li type='disc' className='text-sm w-2/4 text-white'>Mysql</li>
+						<li type='disc' className='text-sm w-2/4 text-white'>Express</li>
+						<li type='disc' className='text-sm w-3/4 text-white'>Express Session</li>
 					</ul>
 
 					<figure className='flex grow items-center justify-center w-full'>
-						<img src={Concreta} className='w-3/4 xl:w-52 grayscale' />
+						<img src={Blog} className='w-3/4 xl:w-54 xl:h-64'  />
 					</figure>
 
-					<p className="text-white text-md font-bold italic">Este projeto ainda está em fase de desenvolvimento. Assim que finalizado, estará disponível!</p>
+					<AcessButton url='https://www.linkedin.com/posts/mferreiradb_javascript-css-mysql-activity-7010024301546352640-EtU2?utm_source=share&utm_medium=member_desktop' />
+
+					<p className="text-white text-md italic">Este projeto não está online devido envolver backend, porém ao clicar em Acessar, você será redirecionado(a) para a minha publicação feita no Linkedin.</p>
+				</article>
+
+				<article className='flex flex-col items-center border-2 border-blue-900 p-4 space-y-5 xl:w-1/4 xl:m-5 my-5'>
+					<h3 className='text-2xl text-white font-semibold'>FinAPI</h3>
+					<p className="text-white text-lg">Projeto backend Rest com Node.Js. Esta é uma API REST de um gerenciador Financeiro com dados em memória.</p>
+					<ul className='flex flex-col items-center justify-center'>
+						<h4 className='text-lg text-white font-semibold'>Tecnologias utilizadas</h4>
+						<li type='disc' className='text-sm w-2/4 text-white'>Javascript</li>
+						<li type='disc' className='text-sm w-2/4 text-white'>Node.Js</li>
+						<li type='disc' className='text-sm w-2/4 text-white'>Express</li>
+					</ul>
+
+					<figure className='flex grow items-center justify-center w-full'>
+						<img src={FinAPI} className='w-3/4 xl:w-54 xl:h-64' />
+					</figure>
+
+					<AcessButton url='https://www.linkedin.com/posts/mferreiradb_javascript-produtividade-backend-activity-7015476198700924928-VVZy?utm_source=share&utm_medium=member_desktop' />
+
+					<p className="text-white text-md italic">Este projeto não está online devido envolver backend, porém ao clicar em Acessar, você será redirecionado(a) para a minha publicação feita no Linkedin.</p>
 				</article>
 
 			</section>
