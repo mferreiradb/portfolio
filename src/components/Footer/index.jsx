@@ -17,7 +17,7 @@ export const Footer = () => (
 
 				<div className='flex space-x-2 my-1'>
 					<WhatsAppIcon className='text-white' />
-					<a href="https://api.whatsapp.com/send?phone=5586995256729" target="_blank" className='underline text-white' rel="noreferrer">(86) 9 9525-6729</a>
+					<a href="https://api.whatsapp.com/send?phone=5586981033127" target="_blank" className='underline text-white' rel="noreferrer">(86) 9 8103-3127</a>
 				</div>
 
 				<div className='flex space-x-2 my-1'>
