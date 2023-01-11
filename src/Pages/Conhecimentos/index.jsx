@@ -13,6 +13,8 @@ import MYSQL from '../../assets/mysql.png';
 import GIT from '../../assets/git.png';
 import Node from '../../assets/node.png';
 import Bootstrap from '../../assets/bootstrap.png';
+import TS from '../../assets/typescript.png';
+import Plus from '../../assets/plus.png';
 
 export const Conhecimentos = () => {
 	return (
@@ -25,6 +27,18 @@ export const Conhecimentos = () => {
 					<h2 className='text-3xl text-white font-semibold'>Conhecimentos Mais Sólidos</h2>
 					<p className="text-white text-xl">Técnologias que utilizo atualmente para desenvolver meus projetos</p>
 				</article>
+
+				<Card img={Node} titulo='Node.JS'>
+
+					<p className="text-white text-lg">Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.</p>
+
+					<ul className='flex flex-col items-center space-y-1'>
+						<h4 className='text-lg text-white font-semibold'>Conhecimentos</h4>
+						<li type='disc' className='text-sm w-7/8 text-white'>ExpressJS</li>
+						<li type='disc' className='text-sm w-7/8 text-white'>Criação APIs REST</li>
+						<li type='disc' className='text-sm w-7/8 text-white'>Acesso e manipulação de Banco de Dados</li>
+					</ul>
+				</Card>
 
 				<Card img={React} titulo='React JS'>
 					<p className="text-white text-lg">O React é uma biblioteca JavaScript com foco em criar interfaces de usuário em páginas web.</p>
@@ -66,6 +80,11 @@ export const Conhecimentos = () => {
 					<p className="text-white text-lg">Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web, usando HTML, CSS e JavaScript.</p>
 				</article>
 
+				<Card img={GIT} titulo='GIT'>
+
+					<p className="text-white text-lg">Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.</p>
+				</Card>
+
 				<Card img={HTML} titulo='HTML 5'>
 
 					<p className="text-white text-lg">HTML5 é uma linguagem de marcação Web e é uma tecnologia chave da Internet. É a quinta versão da linguagem HTML, que passou a ser conhecida como HTML Semântico.</p>
@@ -76,22 +95,14 @@ export const Conhecimentos = () => {
 					<p className="text-white text-lg">CSS3 é a terceira e mais nova versão das famosas Cascading Style Sheets, pela qual se define estilos para um projeto web.</p>
 				</Card>
 
+				<Card img={TS} titulo='TypeScript'>
+
+					<p className="text-white text-lg">TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.</p>
+				</Card>
+
 				<Card img={JS} titulo='JavaScript'>
 
 					<p className="text-white text-lg">JavaScript é uma linguagem de programação interpretada, estruturada de scripts em alto nível, com tipagem dinâmica fraca e multiparadigma.</p>
-				</Card>
-
-				<Card img={Node} titulo='Node.JS'>
-
-					<p className="text-white text-lg">Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.</p>
-
-					<ul className='flex flex-col items-center space-y-1'>
-						<h4 className='text-lg text-white font-semibold'>Conhecimentos</h4>
-						<li type='disc' className='text-sm w-7/8 text-white'>ExpressJS</li>
-						<li type='disc' className='text-sm w-7/8 text-white'>MVC</li>
-						<li type='disc' className='text-sm w-7/8 text-white'>Criação de Rotas</li>
-						<li type='disc' className='text-sm w-7/8 text-white'>Acesso e manipulação de Banco de Dados</li>
-					</ul>
 				</Card>
 
 				<article className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
@@ -104,10 +115,18 @@ export const Conhecimentos = () => {
 
 					<p className="text-white text-lg">O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.</p>
 				</article>
+				
+				<Card img={Plus} titulo='Adicionais'>
 
-				<Card img={GIT} titulo='GIT'>
+					<p className="text-white text-lg">Arquiteturas e tecnologias</p>
 
-					<p className="text-white text-lg">Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.</p>
+					<ul className='flex flex-col items-center space-y-1'>
+						<li type='disc' className='text-sm w-7/8 text-white'>MVC</li>
+						<li type='disc' className='text-sm w-7/8 text-white'>SOLID</li>
+						<li type='disc' className='text-sm w-7/8 text-white'>REST</li>
+						<li type='disc' className='text-sm w-7/8 text-white'>POO</li>
+						<li type='disc' className='text-sm w-7/8 text-white'>Sequelize</li>
+					</ul>
 				</Card>
 
 			</section>
