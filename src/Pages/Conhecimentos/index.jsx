@@ -127,6 +127,7 @@ export const Conhecimentos = () => {
 						<li type='disc' className='text-sm w-7/8 text-white'>SOLID</li>
 						<li type='disc' className='text-sm w-7/8 text-white'>Swagger</li>
 						<li type='disc' className='text-sm w-7/8 text-white'>Sequelize</li>
+						<li type='disc' className='text-sm w-7/8 text-white'>Prisma</li>
 					</ul>
 				</Card>
 
