@@ -33,7 +33,7 @@ export const Footer = () => (
 		</div>
 
 		<div className='pt-16'>
-			<p className='text-white'>Desenvolvido por <a href="https://github.com/mferreiradb" target="_blank">Mauricio Ferreira</a></p>
+			<p className='text-white'>Desenvolvido por <a href="https://github.com/mferreiradb" target="_blank" className='underline'>Mauricio Ferreira</a></p>
 		</div>
 
 	</footer>
