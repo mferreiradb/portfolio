@@ -11,7 +11,7 @@
 
 ## Link de acesso
 
-[Portfolio](https://meu-site-opal.vercel.app)
+- [Portfolio](https://meu-site-opal.vercel.app)
 
 ## Dependências
 
