@@ -13,9 +13,9 @@ export const Header = () => {
 
 				<Link onClick={scrollToTop} to='/projetos' className="font-semibold text-slate-100 lg:hover:text-blue-500 xl:hover:text-blue-500 2xl:hover:text-blue-500">Projetos</Link>
 
-				<a href='#contato' className="font-semibold text-slate-100 lg:hover:text-blue-500 xl:hover:text-blue-500 2xl:hover:text-blue-500">Contato</a>
-
 				<Link onClick={scrollToTop} to='/conhecimentos' className="font-semibold text-slate-100 lg:hover:text-blue-500 xl:hover:text-blue-500 2xl:hover:text-blue-500">Conhecimentos</Link>
+
+				<a href='#contato' className="font-semibold text-slate-100 lg:hover:text-blue-500 xl:hover:text-blue-500 2xl:hover:text-blue-500">Contato</a>
 			</nav>
 		</header>
 	);
