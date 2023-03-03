@@ -10,7 +10,7 @@ export const Home = () => {
 	return (
 		<>
 			<Header />
-			<section id='topo' className="section-dark fundo-home">
+			<section id='topo' className="section-dark fundo-home lg:space-x-16 xl:lg:space-x-16 2xl:space-x-16 3xl:space-x-16">
 
 				<article className="flex flex-col justify-center space-y-6 text-center my-28">
 					<p className="text-slate-300 text-2xl lg:text-4xl">Olá! Tudo bem? Eu me chamo</p>
