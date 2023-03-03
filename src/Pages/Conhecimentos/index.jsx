@@ -164,7 +164,7 @@ export const Conhecimentos = () => {
 			<section className='section-light'>
 
 				<article className='w-full my-5'>
-					<h2 className='text-3xl text-white font-semibold'>Arquiteturas e paradigmas</h2>
+					<h2 className='text-3xl text-white font-semibold'>Técnicas e Abordagens de Desenvolvimento de Software</h2>
 				</article>
 
 				<Card img={Plus} titulo='REST'>
