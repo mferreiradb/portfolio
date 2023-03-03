@@ -37,7 +37,7 @@ export const Home = () => {
 
 					<h2 className='text-3xl text-white font-semibold'>Quem sou eu?</h2>
 
-					<p className='text-white text-lg leading-relaxed'>Meu nome é Mauricio, sou natural de Parnaíba-PI. Sou desenvolvedor, tenho foco em backend, porém também atuo com frontent. Possuo experiência com Bancos de Dados SQL (MYSQL e Firebird), Javascript, Typescript, React Js e Vue Js 2 para desenvolvimento Frontend com diversas ferramentas adicionais, NodeJs para desenvolvimento Backend com diversas ferramentas adicionais. Finalizei meus estudos básicos na <a className='underline' target='_blank' href="http://devmedia.com/" rel="noreferrer">DevMedia</a>, e estou estudando conhecimentos mais avançados na <a className='underline' target='_blank' href="https://www.rocketseat.com.br/" rel="noreferrer">RocketSeat</a>, duas das maiores escolas de programação do mercado.</p>
+					<p className='text-white text-lg leading-relaxed'>Meu nome é Mauricio, sou natural de Parnaíba-PI. Sou desenvolvedor, tendo foco em Backend, porém também atuo com Frontend. Possuo experiência com Bancos de Dados SQL (MYSQL e Firebird), Javascript, Typescript, React Js e Vue Js 2 para desenvolvimento Frontend com diversas ferramentas adicionais e NodeJs para desenvolvimento Backend com diversas ferramentas adicionais. Finalizei meus estudos básicos na <a className='underline' target='_blank' href="http://devmedia.com/" rel="noreferrer">DevMedia</a>, e estou estudando conhecimentos mais avançados na <a className='underline' target='_blank' href="https://www.rocketseat.com.br/" rel="noreferrer">RocketSeat</a>, duas das maiores escolas de programação do mercado.</p>
 				</article>
 			</section>
 			<FloatButton />
