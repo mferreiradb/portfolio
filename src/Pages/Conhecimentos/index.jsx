@@ -190,6 +190,12 @@ export const Conhecimentos = () => {
 						SOLID é um acrônimo para cinco postulados de design, destinados a facilitar a compreensão, o desenvolvimento e a manutenção de software.
 					</p>
 				</Card>
+
+				<Card img={Plus} titulo='DDD	'>
+					<p className="text-white text-lg">
+					O DDD (Domain Driven Design) é uma modelagem de software cujo objetivo é facilitar a implementação de regras e processos complexos, onde visa a divisão de responsabilidades por camadas e é independente da tecnologia utilizada. Ou seja, o DDD é uma filosofia voltado para o domínio do negócio.
+					</p>
+				</Card>
 			</section>
 
 			<FloatButton />
