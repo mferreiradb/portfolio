@@ -19,6 +19,7 @@ import prisma from '../../assets/prisma.png';
 import vue from '../../assets/vue.png';
 import docker from '../../assets/docker.png';
 import swagger from '../../assets/swagger-logo.png';
+import mongo from '../../assets/mongo.png';
 import sequelize from '../../assets/sequelize.svg';
 
 export const Conhecimentos = () => {
@@ -157,6 +158,12 @@ export const Conhecimentos = () => {
 				<Card img={CSS} titulo='CSS 3'>
 
 					<p className="text-white text-lg">CSS3 é a terceira e mais nova versão das famosas Cascading Style Sheets, pela qual se define estilos para um projeto web.</p>
+				</Card>
+
+				<Card img={mongo} titulo='MongoDB'>
+					<p className="text-white text-lg">
+					MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas. 
+					</p>
 				</Card>
 
 			</section>
