@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FloatButton } from '../../components/FloatButton';
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
@@ -33,21 +34,29 @@ export const Conhecimentos = () => {
 					<p className="text-white text-xl">Tecnologias utilizadas nos projetos que estou envolvido atualmente</p>
 				</article>
 
-				<Card img={vue} titulo="Vuejs (v2)">
-					<p className="text-white text-lg">
-						Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.
-					</p>
+				<Card img={React} titulo='React JS'>
+					<p className="text-white text-lg">O React é uma biblioteca JavaScript com foco em criar interfaces de usuário em páginas web.</p>
+					<ul className='flex flex-col items-center space-y-1'>
+						<h4 className='text-lg text-white font-semibold'>Habilidades</h4>
+						<li type='disc' className='text-sm w-7/8 text-white'>Componentização</li>
+						<li type='disc' className='text-sm w-7/8 text-white'>useState</li>
+						<li type='disc' className='text-sm w-7/8 text-white'>Rotas</li>
+						<li type='disc' className='text-sm w-7/8 text-white'>Props</li>
+					</ul>
+				</Card>
+				
+				<Card img={React} titulo='React Native'>
+					<p className="text-white text-lg">React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa.</p>
+					<ul className='flex flex-col items-center space-y-1'>
+						<h4 className='text-lg text-white font-semibold'>Habilidades</h4>
+						<li type='disc' className='text-sm w-7/8 text-white'>Exibição de imagens</li>
+						<li type='disc' className='text-sm w-7/8 text-white'>Componentização</li>
+						<li type='disc' className='text-sm w-7/8 text-white'>Estilização</li>
+					</ul>
 				</Card>
 
 				<Card img={Tailwind} titulo='Tailwind CSS'>
 					<p className="text-white text-lg">Biblioteca CSS com foco no conceito <b>Mobile First</b> que facilita na estilizaçãoe e responsividade através de classes.</p>
-				</Card>
-
-				<Card img={prisma} titulo='Prisma IO'>
-					<p className="text-white text-lg">O Prisma é um ORM de última geração que consiste nas seguintes ferramentas:</p>
-					<p className="text-white text-lg">	O Prisma Client pode ser usado em qualquer aplicativo Node.
-						js ou aplicativo de back-end TypeScript (incluindo aplicativos sem servidor e microsserviços). Pode ser uma API REST, uma API GraphQL, uma API gRPC ou qualquer outra coisa que precise de um banco de dados.
-					</p>
 				</Card>
 
 				<Card img={Node} titulo='Node.JS'>
@@ -62,11 +71,6 @@ export const Conhecimentos = () => {
 					</ul>
 				</Card>
 
-				<Card img={docker} titulo='Docker'>
-
-					<p className="text-white text-lg">Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração.</p>
-				</Card>
-
 				<article className='flex flex-col items-center justify-center border-2 border-blue-900 p-8 space-y-5 xl:w-1/3 xl:m-5 my-5'>
 
 					<figure className='flex w-full justify-center items-center pr-10 xl:pr-12'>
@@ -77,6 +81,13 @@ export const Conhecimentos = () => {
 
 					<p className="text-white text-lg">O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.</p>
 				</article>
+
+				<Card img={prisma} titulo='Prisma IO'>
+					<p className="text-white text-lg">O Prisma é um ORM de última geração que consiste nas seguintes ferramentas:</p>
+					<p className="text-white text-lg">	O Prisma Client pode ser usado em qualquer aplicativo Node.
+						js ou aplicativo de back-end TypeScript (incluindo aplicativos sem servidor e microsserviços). Pode ser uma API REST, uma API GraphQL, uma API gRPC ou qualquer outra coisa que precise de um banco de dados.
+					</p>
+				</Card>
 
 				<Card img={TS} titulo='TypeScript'>
 
@@ -96,26 +107,11 @@ export const Conhecimentos = () => {
 					<p className="text-white text-xl">Técnologias que já utilizei e possuo familiaridade para desenvolver meus projetos</p>
 				</article>
 
-				<Card img={React} titulo='React JS'>
-					<p className="text-white text-lg">O React é uma biblioteca JavaScript com foco em criar interfaces de usuário em páginas web.</p>
-					<ul className='flex flex-col items-center space-y-1'>
-						<h4 className='text-lg text-white font-semibold'>Habilidades</h4>
-						<li type='disc' className='text-sm w-7/8 text-white'>Componentização</li>
-						<li type='disc' className='text-sm w-7/8 text-white'>useState</li>
-						<li type='disc' className='text-sm w-7/8 text-white'>Rotas</li>
-						<li type='disc' className='text-sm w-7/8 text-white'>Props</li>
-					</ul>
+				<Card img={vue} titulo="Vuejs (v2)">
+					<p className="text-white text-lg">
+						Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.
+					</p>
 				</Card>
-				{/* 
-				<Card img={React} titulo='React Native'>
-					<p className="text-white text-lg">React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa.</p>
-					<ul className='flex flex-col items-center space-y-1'>
-						<h4 className='text-lg text-white font-semibold'>Habilidades</h4>
-						<li type='disc' className='text-sm w-7/8 text-white'>Exibição de imagens</li>
-						<li type='disc' className='text-sm w-7/8 text-white'>Componentização</li>
-						<li type='disc' className='text-sm w-7/8 text-white'>Estilização</li>
-					</ul>
-				</Card> */}
 
 				<Card img={MUI} titulo='Material UI'>
 					<p className="text-white text-lg">
@@ -138,6 +134,16 @@ export const Conhecimentos = () => {
 					<p className="text-white text-lg">Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.</p>
 				</Card>
 
+				<Card img={docker} titulo='Docker'>
+					<p className="text-white text-lg">Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração.</p>
+				</Card>
+
+				<Card img={mongo} titulo='MongoDB'>
+					<p className="text-white text-lg">
+					MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas. 
+					</p>
+				</Card>
+
 				<Card img={swagger} titulo='Swagger'>
 					<p className="text-white text-lg">
 						Swagger é um conjunto de ferramentas para desenvolvedores de API da SmartBear Software e uma especificação anterior na qual a especificação OpenAPI é baseada.
@@ -158,12 +164,6 @@ export const Conhecimentos = () => {
 				<Card img={CSS} titulo='CSS 3'>
 
 					<p className="text-white text-lg">CSS3 é a terceira e mais nova versão das famosas Cascading Style Sheets, pela qual se define estilos para um projeto web.</p>
-				</Card>
-
-				<Card img={mongo} titulo='MongoDB'>
-					<p className="text-white text-lg">
-					MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas. 
-					</p>
 				</Card>
 
 			</section>
