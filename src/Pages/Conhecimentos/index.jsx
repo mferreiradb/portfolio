@@ -18,6 +18,7 @@ import TS from '../../assets/typescript.png';
 import Plus from '../../assets/plus.png';
 import prisma from '../../assets/prisma.png';
 import vue from '../../assets/vue.png';
+import nuxt from '../../assets/nuxt.png';
 import docker from '../../assets/docker.png';
 import swagger from '../../assets/swagger-logo.png';
 import mongo from '../../assets/mongo.png';
@@ -34,25 +35,16 @@ export const Conhecimentos = () => {
 					<p className="text-white text-xl">Tecnologias utilizadas nos projetos que estou envolvido atualmente</p>
 				</article>
 
-				<Card img={React} titulo='React JS'>
-					<p className="text-white text-lg">O React é uma biblioteca JavaScript com foco em criar interfaces de usuário em páginas web.</p>
-					<ul className='flex flex-col items-center space-y-1'>
-						<h4 className='text-lg text-white font-semibold'>Habilidades</h4>
-						<li type='disc' className='text-sm w-7/8 text-white'>Componentização</li>
-						<li type='disc' className='text-sm w-7/8 text-white'>useState</li>
-						<li type='disc' className='text-sm w-7/8 text-white'>Rotas</li>
-						<li type='disc' className='text-sm w-7/8 text-white'>Props</li>
-					</ul>
+				<Card img={vue} titulo="Vuejs">
+					<p className="text-white text-lg">
+						Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.
+					</p>
 				</Card>
-				
-				<Card img={React} titulo='React Native'>
-					<p className="text-white text-lg">React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa.</p>
-					<ul className='flex flex-col items-center space-y-1'>
-						<h4 className='text-lg text-white font-semibold'>Habilidades</h4>
-						<li type='disc' className='text-sm w-7/8 text-white'>Exibição de imagens</li>
-						<li type='disc' className='text-sm w-7/8 text-white'>Componentização</li>
-						<li type='disc' className='text-sm w-7/8 text-white'>Estilização</li>
-					</ul>
+
+				<Card img={nuxt} titulo="Vuejs">
+					<p className="text-white text-lg">
+					Nuxt.js é um framework para aplicações web de código aberto baseado em Vue.js, Node.js, Webpack and Babel.js. O framework foi inspirado pelo Next.js que é um framework com propósito similar porém baseado em React.
+					</p>
 				</Card>
 
 				<Card img={Tailwind} titulo='Tailwind CSS'>
@@ -89,6 +81,11 @@ export const Conhecimentos = () => {
 					</p>
 				</Card>
 
+				<Card img={GIT} titulo='GIT'>
+
+					<p className="text-white text-lg">Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.</p>
+				</Card>
+
 				<Card img={TS} titulo='TypeScript'>
 
 					<p className="text-white text-lg">TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.</p>
@@ -107,10 +104,25 @@ export const Conhecimentos = () => {
 					<p className="text-white text-xl">Técnologias que já utilizei e possuo familiaridade para desenvolver meus projetos</p>
 				</article>
 
-				<Card img={vue} titulo="Vuejs (v2)">
-					<p className="text-white text-lg">
-						Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.
-					</p>
+				<Card img={React} titulo='React JS'>
+					<p className="text-white text-lg">O React é uma biblioteca JavaScript com foco em criar interfaces de usuário em páginas web.</p>
+					<ul className='flex flex-col items-center space-y-1'>
+						<h4 className='text-lg text-white font-semibold'>Habilidades</h4>
+						<li type='disc' className='text-sm w-7/8 text-white'>Componentização</li>
+						<li type='disc' className='text-sm w-7/8 text-white'>useState</li>
+						<li type='disc' className='text-sm w-7/8 text-white'>Rotas</li>
+						<li type='disc' className='text-sm w-7/8 text-white'>Props</li>
+					</ul>
+				</Card>
+				
+				<Card img={React} titulo='React Native'>
+					<p className="text-white text-lg">React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa.</p>
+					<ul className='flex flex-col items-center space-y-1'>
+						<h4 className='text-lg text-white font-semibold'>Habilidades</h4>
+						<li type='disc' className='text-sm w-7/8 text-white'>Exibição de imagens</li>
+						<li type='disc' className='text-sm w-7/8 text-white'>Componentização</li>
+						<li type='disc' className='text-sm w-7/8 text-white'>Estilização</li>
+					</ul>
 				</Card>
 
 				<Card img={MUI} titulo='Material UI'>
@@ -128,11 +140,6 @@ export const Conhecimentos = () => {
 
 					<p className="text-white text-lg">Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web, usando HTML, CSS e JavaScript.</p>
 				</article>
-
-				<Card img={GIT} titulo='GIT'>
-
-					<p className="text-white text-lg">Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.</p>
-				</Card>
 
 				<Card img={docker} titulo='Docker'>
 					<p className="text-white text-lg">Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração.</p>
