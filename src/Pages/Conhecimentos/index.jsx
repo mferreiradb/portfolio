@@ -41,7 +41,7 @@ export const Conhecimentos = () => {
 					</p>
 				</Card>
 
-				<Card img={nuxt} titulo="Vuejs">
+				<Card img={nuxt} titulo="Nuxtjs">
 					<p className="text-white text-lg">
 					Nuxt.js é um framework para aplicações web de código aberto baseado em Vue.js, Node.js, Webpack and Babel.js. O framework foi inspirado pelo Next.js que é um framework com propósito similar porém baseado em React.
 					</p>
